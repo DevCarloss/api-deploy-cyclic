@@ -2,7 +2,7 @@ const dotenv = require('dotenv').config()
 const express = require('express')
 const app = express()
 const bodyParser = require('body-parser')
-const CORS = require('CORS')
+const CORS = require('cors')
 const nodemailer = require('nodemailer')
 const validator = require('validator')
 
